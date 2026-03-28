@@ -505,6 +505,55 @@ const Portfolio = () => {
       tech: ['React', 'Express', 'MongoDB'],
       link: 'https://delhi-tour-cab-frontends.onrender.com',
       gradient: 'from-amber-500 to-orange-500'
+    },
+    {
+      title: 'Unixa Website',
+      description: 'Corporate website for Unixa platform',
+      tech: ['React', 'Node.js', 'MongoDB'],
+      link: 'https://www.unixa.co.in',
+      gradient: 'from-sky-500 to-blue-600'
+    },
+    {
+      title: 'Unixa Admin Panel',
+      description: 'Master admin dashboard for Unixa platform management',
+      tech: ['React', 'Node.js', 'MongoDB', 'Express'],
+      link: 'https://admin.unixa.co.in',
+      gradient: 'from-red-500 to-orange-600'
+    },
+    {
+      title: 'Unixa Manager Panel',
+      description: 'Manager dashboard for team and operations management',
+      tech: ['React', 'Node.js', 'MongoDB'],
+      link: 'https://manager.unixa.co.in',
+      gradient: 'from-violet-500 to-indigo-600'
+    },
+    {
+      title: 'Unixa Employee Panel',
+      description: 'Employee portal for task and workflow management',
+      tech: ['React', 'Node.js', 'MongoDB'],
+      link: 'https://employee.unixa.co.in',
+      gradient: 'from-emerald-500 to-teal-600'
+    },
+    {
+      title: 'Unixa User Panel',
+      description: 'OTP based user panel for Unixa platform',
+      tech: ['React', 'Node.js', 'MongoDB'],
+      link: 'https://user.unixa.co.in',
+      gradient: 'from-pink-500 to-rose-600'
+    },
+    {
+      title: 'Ratan Khatri',
+      description: 'Personal portfolio website for Ratan Khatri',
+      tech: ['React', 'CSS', 'JavaScript'],
+      link: 'https://ratan-khatri-sage.vercel.app',
+      gradient: 'from-yellow-500 to-amber-600'
+    },
+    {
+      title: 'Solarkara',
+      description: 'Solar energy solutions and services website',
+      tech: ['React', 'CSS', 'JavaScript'],
+      link: 'https://www.solarkara.in',
+      gradient: 'from-yellow-400 to-orange-500'
     }
   ];
 
