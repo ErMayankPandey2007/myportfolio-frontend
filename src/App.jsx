@@ -891,7 +891,7 @@ const Portfolio = () => {
             {projects.map((project, index) => (
               <motion.div
                 key={index}
-                className="bg-black/50 backdrop-blur-lg rounded-lg overflow-hidden border border-cyan-500/30 hover:border-cyan-500 cyber-card digital-border"
+                className="bg-black/50 backdrop-blur-lg rounded-lg overflow-hidden border border-cyan-500/30 hover:border-cyan-500 cyber-card digital-border cursor-pointer"
                 initial={{ opacity: 0, x: index % 2 === 0 ? -100 : 100 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 whileHover={{
@@ -900,6 +900,7 @@ const Portfolio = () => {
                 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 viewport={{ once: true }}
+                onClick={() => window.open(project.link, '_blank')}
               >
                 <motion.div
                   className={`h-2 bg-gradient-to-r ${project.gradient}`}
